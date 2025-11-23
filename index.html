@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Management Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo">logo</div>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showPage('home')">Home</a></li>
+                    <li><a href="#" onclick="showPage('about')">About Company</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <div id="home-page" class="page active">
+        
+        <section class="hero">
+            <h1>We'll help manage your business</h1>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</p>
+            <div class="credits">
+                Images from <a href="#">Freepik</a>
+            </div>
+        </section>
+
+        
+        <section class="services">
+            <div class="services-grid">
+                
+                <div class="service-card consultations" onclick="showTab('consultations')">
+                    <div class="service-card-content">
+                        <div>
+                            <div class="service-icon">💰</div>
+                            <h3>CONSULTATIONS</h3>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="service-card strategy" onclick="showTab('strategy')">
+                    <div class="service-card-content">
+                        <div>
+                            <div class="service-icon">♞</div>
+                            <h3>STRATEGY</h3>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="service-card investment" onclick="showTab('investment')">
+                    <div class="service-card-content">
+                        <div>
+                            <div class="service-icon">💵</div>
+                            <h3>INVESTMENT</h3>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="service-card marketing" onclick="showTab('marketing')">
+                    <div class="service-card-content">
+                        <div>
+                            <div class="service-icon">🚀</div>
+                            <h3>MARKETING</h3>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="service-card startups" onclick="showTab('startups')">
+                    <div class="service-card-content">
+                        <div>
+                            <div class="service-icon">🚀</div>
+                            <h3>STARTUPS</h3>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="service-card anticrisis" onclick="showTab('anticrisis')">
+                    <div class="service-card-content">
+                        <div>
+                            <div class="service-icon">📊</div>
+                            <h3>ANTI-CRISIS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="consultations" class="tab-content active">
+                <h2>Consultations</h2>
+                <p>Professional business consultations to guide your company's strategic decisions and growth.</p>
+                <p>Our expert consultants will help you identify challenges, develop solutions, and implement effective strategies for your business success.</p>
+            </div>
+
+            <div id="strategy" class="tab-content">
+                <h2>Strategy</h2>
+                <p>Comprehensive strategic planning tailored to your business goals and market conditions.</p>
+                <p>We develop detailed roadmaps that align your resources with objectives, ensuring sustainable competitive advantage.</p>
+            </div>
+
+            <div id="investment" class="tab-content">
+                <h2>Investment</h2>
+                <p>Smart investment advisory and portfolio management solutions.</p>
+                <p>Maximize returns while managing risks through our data-driven investment strategies and market insights.</p>
+            </div>
+
+            <div id="marketing" class="tab-content">
+                <h2>Marketing</h2>
+                <p>Innovative marketing campaigns designed to boost your brand presence and customer engagement.</p>
+                <p>From digital marketing to traditional campaigns, we create strategies that deliver measurable results.</p>
+            </div>
+
+            <div id="startups" class="tab-content">
+                <h2>Startups</h2>
+                <p>Specialized support for emerging businesses and startups launching new ventures.</p>
+                <p>From business planning to securing funding, we help new entrepreneurs turn their ideas into successful companies.</p>
+            </div>
+
+            <div id="anticrisis" class="tab-content">
+                <h2>Anti-Crisis Management</h2>
+                <p>Expert crisis management and business recovery services when you need them most.</p>
+                <p>Navigate challenging times with our proven crisis resolution strategies and stabilization techniques.</p>
+            </div>
+        </section>
+    </div>
+
+    
+    <div id="about-page" class="page">
+        <section class="about-hero">
+            <h1>About Our Company</h1>
+            <p class="about-subtitle">Alignment. Growth. Relevance.</p>
+        </section>
+
+        <section class="about-features">
+            <div class="feature-card about-us">
+                <div class="feature-icon">👥</div>
+                <h3>ABOUT US</h3>
+                <p>Sample text. Click to select the text box.</p>
+            </div>
+            <div class="feature-card company">
+                <div class="feature-icon">🏢</div>
+                <h3>COMPANY</h3>
+                <p>Sample text. Click to select the text box.</p>
+            </div>
+            <div class="feature-card mission">
+                <div class="feature-icon">🚀</div>
+                <h3>OUR MISSION</h3>
+                <p>Sample text. Click to select the text box.</p>
+            </div>
+            <div class="feature-card awards">
+                <div class="feature-icon">🏆</div>
+                <h3>AWARDS</h3>
+                <p>Sample text. Click to select the text box.</p>
+            </div>
+        </section>
+
+        <section class="company-info">
+            <div class="info-left">
+                <h2>Business Technology Platform</h2>
+                <p class="info-credit">Image by Freepik</p>
+            </div>
+            <div class="info-right">
+                <div class="info-column">
+                    <h3>Analytics</h3>
+                    <ul>
+                        <li>✓ Streamline analytics processes</li>
+                        <li>✓ Embed BI and predictive planning</li>
+                        <li>✓ Turn insights into action</li>
+                        <li>✓ Visualize your decisions</li>
+                    </ul>
+                </div>
+                <div class="info-column">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>✓ Access AI, data-driven cloud apps</li>
+                        <li>✓ Embed intelligence into processes</li>
+                        <li>✓ Drive end-to-end innovation</li>
+                        <li>✓ Scale your platform</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="team-member">
+                <h3>MARY BROWN</h3>
+                <p class="role">creative leader</p>
+                <p class="bio">Glavi amet rtisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iguam bibendum</p>
+                <div class="social-links">
+                    <a href="#">f</a>
+                    <a href="#">𝕏</a>
+                    <a href="#">📷</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <h3>ANN RICHMOND</h3>
+                <p class="role">creative leader</p>
+                <p class="bio">Glavi amet rtisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iguam bibendum</p>
+                <div class="social-links">
+                    <a href="#">f</a>
+                    <a href="#">𝕏</a>
+                    <a href="#">📷</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <h3>BOB GREENFIELD</h3>
+                <p class="role">programming guru</p>
+                <p class="bio">Glavi amet rtisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iguam bibendum</p>
+                <div class="social-links">
+                    <a href="#">f</a>
+                    <a href="#">𝕏</a>
+                    <a href="#">📷</a>
+                    <a href="#">in</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+    <footer>
+        <p>Sample text. Click to select the text. Click again or double click to start editing the text.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
